@@ -135,6 +135,27 @@ body
 	color:#999;
 }
 
+.left {
+	float:left;
+}
+
+.images {
+	margin-top:10px;
+	margin-bottom:100px;
+	min-height: 100px;
+	width:100%;
+}
+
+.grey {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
+}
+
+
+
 .input_text_name {
 	width:250px;
 	padding:10px;
