@@ -1,0 +1,393 @@
+body
+{
+
+	padding:0px;
+	margin:0px;
+	text-align: center;
+}
+
+.container
+{
+	width:100%;
+	margin:auto;
+}
+
+.first_cover_image
+{
+	height:675px;
+	width:100%;
+	background:url(../images/cover.jpg) no-repeat;
+	background-size:100%;
+	text-align:center;
+}
+
+.inner_width_content
+{
+	position:relative;
+	width:1260px;
+	margin:auto;
+}
+
+
+.inner_small_width_content
+{
+	position:relative;
+	width:1220px;
+	margin:auto;
+}
+
+.wtfk_logo
+{
+	font-size:190px;
+	color:#a1d012;
+	text-align:center;
+	width:1245px;
+	padding-top:170px;
+}
+
+.wtfk_location
+{
+	text-align:center;
+	width:100%;
+	position: absolute;
+	top:350px;
+	text-align: center;
+
+}
+
+.cover_time
+{
+	font-size:80px;
+	color:#FFF;
+	display:inline-block;
+	vertical-align: middle;
+	*display:inline;
+	zoom:1;
+}
+
+.cover_location
+{
+	font-size:75px;
+	color:#FFF;
+	position:relative;
+	display:inline-block;
+	vertical-align: middle;
+	*display:inline;
+	zoom:1;
+}
+
+.vertical_divider
+{
+	width:2px;
+	height:70px;
+	background:#FFF;
+	position:absolute;
+	left:13px;
+	top:5px;
+}
+
+.the_event_div
+{
+	height:642px;
+}
+.the_event
+{
+	font-size:140px;
+	color:#033a57;
+	padding-top:50px;
+}
+
+.the_event_details
+{
+	width: 590px;
+	font-size:40px;
+	color:#312f2f;
+	margin-top:20px;
+	margin-left:30px;
+	margin-right:6px;
+	padding:0px;
+	float: left;
+	text-align:justify;
+}
+
+.border {
+	width:10px;
+	float:left;
+	margin-top:20px;
+	}
+
+.the_event_registration_form
+{
+	width: 610px;
+	font-size:20px;
+	color:#312f2f;
+	margin-top:0px;
+	margin-left:0px;
+	float: left;
+}
+
+.input_text_name {
+	width:250px;
+	padding:10px;
+	margin-left:25px;
+	font-size:18px;
+	margin-bottom:5px;
+	}
+.input_text {
+	width:554px;
+	padding:10px;
+	margin-left:25px;
+	font-size:18px;
+	margin-bottom:5px;
+	}
+	
+.radio_button {
+	margin-top:20px;
+	margin-left:55px;
+	margin-right:10px;
+	padding:10px;
+	display:inline-block;
+	}
+.count_me_in
+{
+	display:inline-block;
+	vertical-align: middle;
+	zoom:1;
+	*display:inline;
+	padding:10px 40px;
+	background:#a1d012;
+	font-size:40px;
+	color:#FFF;
+	margin-top:20px;
+	text-decoration:none;
+	width:578px;
+	margin-left:25px;
+}
+
+input[type=radio] {
+	padding:5px;
+	display:inline-block;
+	border-radius:10px;
+	}
+
+.the_location_div
+{
+	height:760px;
+	background:#033a57;
+	position:relative;
+
+}
+
+.bottom_arrow
+{
+	width:100%;
+	position: relative;
+	text-align:center;
+}
+
+.bottom_arrow img 
+{
+	top:-3px;
+	position:absolute;
+	z-index:1010;
+}
+
+.the_location
+{
+	font-size:140px;
+	color:#FFF;
+	padding-top:50px;
+}
+
+.address
+{
+	font-size:45px;
+	color:#e69d11;	
+}
+
+.the_map_details
+{
+	margin-top:30px;
+}
+
+.shedule_div
+{
+	height:760px;
+	background:#FFF;
+	position:relative;
+}
+
+.the_shedule
+{
+	font-size:140px;
+	color:#033a57;
+	padding-top:120px;
+}
+
+.the_participant
+{
+	font-size:116px;
+	color:#033a57;
+	padding-top:60px;
+	
+	width:1260px;
+	overflow:hidden;
+}
+
+.shedule
+{
+	font-size:52px;
+	color:#312f2f;
+	margin-top:30px;
+}
+
+.orange_border
+{
+	width:100%;
+	height:3px;
+	background:#f18103;
+	margin-top:80px;
+}
+
+.spread_the_word_div
+{
+	background:#f18103;
+	text-align:left;
+	height:330px;
+}
+
+.left_spread
+{
+	display:inline-block;
+	vertical-align: top;
+	zoom:1;
+	*display: inline;
+	width:590px;
+	padding-top:60px;
+	position: relative;
+}
+
+.spread
+{
+	font-size:120px;
+	color:#FFF;
+}
+
+
+.small_spread
+{
+	font-size:92px;
+	color:#FFF;
+	position:absolute;
+	top:167px;
+}
+
+.sepeartor
+{
+	display:inline-block;
+	vertical-align: middle;
+	zoom:1;
+	*display: inline;
+	width:1px;
+	height:170px;
+	background:#FFF;
+	margin-top:80px;
+	margin-right:16px;
+}
+.right_share
+{
+	display:inline-block;
+	vertical-align: top;
+	zoom:1;
+	*display: inline;
+	width:600px;
+	text-align: center;
+	padding-top:105px;
+}
+
+.facebook_share
+{
+	display:inline-block;
+	vertical-align: middle;
+	zoom:1;
+	*display: inline;
+	width:290px;
+	color:#FFF;
+	font-size:30px;
+	text-align:center;
+}
+
+.facebook_share a 
+{
+	color:#FFF;
+	text-decoration: none;
+}
+
+.facebook_text
+{
+	display:block;
+}
+
+.filter_kappi_text
+{
+	font-size:40px;
+	color:#FFF;
+	padding-top:100px;
+}
+
+.filter_kappi_div
+{
+	background:#033a57;
+	height:300px;
+}
+
+.footer
+{
+	height:100px;
+	text-align:center;
+}
+
+.inner_footer
+{
+	margin:auto;
+	width:1160px;
+	position: relative;
+	color:#222b31;
+	font-size:23px;
+}
+
+.inner_footer a 
+{
+	text-decoration:none;
+	color:#222b31;
+
+}
+
+.website
+{
+	position:absolute;
+	left:0px;
+	top:40px;
+}
+
+
+.copyright
+{
+	position:absolute;
+	left:500px;
+	top:40px;	
+}
+
+.developed
+{
+	position:absolute;
+	right:3px;
+	top:40px;	
+}
+
+.left_float {
+	float:left;
+	}
+.width45 {
+	width:45%;
+	}
