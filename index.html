@@ -20,15 +20,15 @@
         <script src="js/Helvetica_300.font.js" type="text/javascript"></script>
         <script src="js/Helvetica_Neue_300.font.js" type="text/javascript"></script>
         <script src="js/Helvetica_Neue_LT_Std_275.font.js" type="text/javascript"></script>
-       <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
-       <!--[if lte IE 8]>
+<!--        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+ -->       <!--[if lte IE 8]>
            <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
        <![endif]-->
-       <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>        
+       <!-- <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>  -->      
         <script type="text/javascript">
             Cufon.replace('.wtfk_logo, .couture_bold, .the_event, .count_me_in_font, .the_location, .the_shedule, .spread, .the_participant, .small_spread', { fontFamily: 'COUTURE' });
             Cufon.replace('.cover_location', { fontFamily: 'Helvetica Neue LT Std' });
-             Cufon.replace('.the_event_details, .inner_footer, .address, .shedule, .facebook_text, .filter_kappi_text', { fontFamily: 'Helvetica' });
+             Cufon.replace('.the_event_details, .tripiterinary, .inner_footer, .address, .shedule, .facebook_text, .filter_kappi_text', { fontFamily: 'Helvetica' });
              Cufon.replace('.free_trial_text', { fontFamily: 'Futura Md BT', fontWeight:'700' });
               Cufon.replace('.hover_true', { fontFamily: 'Futura Lt BT', hover: {
                 color:'#000'
@@ -112,24 +112,45 @@
                     </div>
 
                 </div>
+                <div class="train">
 
 
-                <div class='the_location_div'>
+                </div>
+                <div class='the_location_div' style="height:620px">
 
                     <div class='inner_width_content'>
 
                         <div class='the_location'>
-                            THE LOCATION
+                            THE TRIP
                         </div>
                         
-                        <div class='address'>Microsoft MPR, Bangalore</div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 7:25 AM</span> Leave Chennai Central via SBC Double Decker Train</div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 1:30 PM</span> Arrive Bangalore City and depart for Hotel</div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 2:15 PM</span> Checkin to Hotel</div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 3:30 PM</span> Visit to Microsoft Accelerator </div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 5:45 PM</span> Visit to Bangalore Alpha Labs</div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 8:45 PM</span> Dinner with founders from the Startup Leadership Program </div>
+                        <div class="tripiterinary"><span class="em">Aug 3, 8:30 AM</span> Leave Hotel for the Event</div>
+                    </div>
+                   
+                </div>
+                <div class='bottom_arrow'><img src='images/bottom_arrow.png' /></div>
+
+
+                <div class='shedule_div'>
+                     <div class='inner_width_content'>
+                        <div class='the_shedule'>
+                            THE EVENT
+                        </div>
+
+                        <div class='address'>August 3, Microsoft MPR, Bangalore</div>
 
                         <div class='the_map_details'>
 
              <html>
                   <body>
                     <div id="map-d">
-                      <div id="map" style="height:400px"></div>
+                      <div id="map" style="height:300px"></div>
                       <script>
                   var map = new L.Map('map');
                       var cloudmadeUrl = 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png',
@@ -138,7 +159,7 @@
               var cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 18, attribution: cloudmadeAttrib, subdomains: subDomains});
 
         var venue = new L.LatLng(12.950825,77.644211); // geographical point (longitude and latitude)
-              map.setView(venue, 15).addLayer(cloudmade);
+              map.setView(venue, 12).addLayer(cloudmade);
 
                     var venue_marker = new L.Marker(venue);
                   map.addLayer(venue_marker);
@@ -153,19 +174,8 @@
 
                         </div>
 
-
-                    </div>
-                   
-                </div>
-                <div class='bottom_arrow'><img src='images/bottom_arrow.png' /></div>
-
-
-                <div class='shedule_div'>
-                     <div class='inner_width_content'>
-
-                        <div class='the_shedule'>
-                            THE SHEDULE
-                        </div>
+                        <div class='the_event_details'>
+                      
                        
                         <div class='shedule'>
                             09:00 Registration
@@ -180,8 +190,10 @@
                         </div>
 
                         <div class='shedule'>
-                            10:00 Some epic talks will be sheduled
+                            10:00 - 12:30 Gyan, Networking and Fun
                         </div>
+
+                    </div>
 
                     </div>
                     <div class='orange_border'></div>
@@ -267,10 +279,6 @@
                     
                      <div class='inner_small_width_content'>
 
-                                <div class='filter_kappi_text'>
-'What the Filter Kaapi' - Chennai's biggest #startup gathering organized by Founders for Founders from the filtercoffeers.com
-                                </div>
-                       
                     </div>
                     
                 </div>
