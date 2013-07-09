@@ -135,6 +135,21 @@ body
 	color:#999;
 }
 
+#map-d {
+float:left;
+width: 100%;
+margin-top:10px;
+margin-bottom:20px;
+height: 255px;
+border:2px solid #CCC;
+}
+
+#map {
+width: 100%;
+position:absolute;
+height: 400px; }
+
+
 .left {
 	float:left;
 }
