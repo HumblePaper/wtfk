@@ -222,12 +222,17 @@ height: 300px; }
 	*display:inline;
 	padding:10px 40px;
 	background:#a1d012;
-	font-size:40px;
+	border-radius:4px;
+	font-size:20px;
 	color:#FFF;
 	margin-top:20px;
 	text-decoration:none;
 	width:578px;
 	margin-left:25px;
+	border: none;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+}
 }
 
 input[type=radio] {
