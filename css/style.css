@@ -25,6 +25,8 @@ body
 {
 	height:576px;
 	width:100%;
+	border-top:20px solid #DBDB4B;
+	border-bottom:20px solid #DBDB4B;
 	background:url(../images/dbl.jpg) no-repeat;
 	background-size:100%;
 	text-align:center;
