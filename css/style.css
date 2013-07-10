@@ -112,12 +112,15 @@ body
 	width: 590px;
 	font-size:40px;
 	color:#312f2f;
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:30px;
 	margin-right:6px;
 	padding:0px;
 	float: left;
 	text-align:justify;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 20px;
 }
 
 .border {
@@ -305,7 +308,7 @@ input[type=radio] {
 {
 	font-size:140px;
 	color:#033a57;
-	padding-top:120px;
+	padding-top:60px;
 }
 
 .the_participant
