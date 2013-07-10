@@ -14,11 +14,11 @@ body
 
 .first_cover_image
 {
-	height:675px;
 	width:100%;
 	background:url(../images/cover.jpg) no-repeat;
 	background-size:100%;
 	text-align:center;
+	padding-bottom:250px;
 }
 
 .train
@@ -43,7 +43,7 @@ body
 {
 	position:initial;
 	margin:auto;
-	float:left;
+
 }
 
 .wtfk_logo
@@ -98,7 +98,7 @@ body
 
 .the_event_div
 {
-	height:642px;
+	padding-bottom:80px;
 }
 .the_event
 {
@@ -109,6 +109,10 @@ body
 
 .the_event_details
 {
+	display:inline-block;
+	vertical-align:middle;
+	*display:inline;
+	zoom:1;
 	width: 590px;
 	font-size:40px;
 	color:#312f2f;
@@ -132,11 +136,15 @@ body
 	width: 610px;
 	font-size:20px;
 	color:#312f2f;
-	margin-top:0px;
-	margin-left:0px;
-	float: left;
+	display:inline-block;
+	vertical-align:middle;
+	*display:inline;
+	zoom:1;
 }
-
+.elastic
+{
+	clear:both;
+}
 .byline {
 	font-size:24px;
 	border-top:1px solid #999;
@@ -243,10 +251,10 @@ input[type=radio] {
 
 .the_location_div
 {
-	height:760px;
+	
 	background:#033a57;
 	position:relative;
-
+padding-bottom:80px;
 }
 
 .bottom_arrow
@@ -290,11 +298,14 @@ input[type=radio] {
 .the_map_details
 {
 	margin-top:30px;
+	display:inline-block;
+	vertical-align:middle;
+	
 }
 
 .shedule_div
 {
-	height:760px;
+	
 	background:#f9f9f9;
 	position:relative;
 }
@@ -329,16 +340,35 @@ input[type=radio] {
 	height:3px;
 	float:left;
 	background:#f18103;
-	margin-top:80px;
+	
 }
 
 .spread_the_word_div
 {
 	background:#f18103;
 	text-align:left;
-	height:330px;
+	padding-bottom:100px;
 	float:left;
 	width:100%;
+}
+
+.logos
+{
+	text-align:center;
+	margin-top:30px;
+}
+
+.single_logo
+{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	vertical-align:middle;
+	width:415px;
+	text-align:center;
+	margin-bottom:70px;
+	
+	
 }
 
 .left_spread
@@ -426,8 +456,7 @@ input[type=radio] {
 .filter_kappi_div
 {
 	background:#999999;
-	height:380px;
-	float:left;
+	text-align:center;
 	width:100%;
 }
 

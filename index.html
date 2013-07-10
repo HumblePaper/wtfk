@@ -62,7 +62,7 @@
                 </div>
 
 
-                <div class='the_event_div' style="height:800px;background:#f9f9f9;">
+                <div class='the_event_div' style="background:#f9f9f9;">
 
                     <div class='inner_width_content'>
 
@@ -71,10 +71,49 @@
                         </div>
                         <div class='the_event_details' style="background:transparent;border:none;">
 
-                            Founders from <strong>Chennai's</strong> finest tech and design startups converge on <strong>Bangalore</strong> for the inaugural edition of WTFK  
-
+                            Founders from <strong>Chennai's</strong> finest tech and design startups converge on <strong>Bangalore</strong> for the inaugural edition of WTFK  <Br/>
+<span class="byline"><span style="margin-top:20px">a startup event by founders for founders</span></span> 
                         </div>
-                        <span class="byline"><span style="margin-top:20px">a startup event by founders for founders</span></span> 
+                        
+						
+						<div class='logos'>
+							<a href="" class='single_logo' style='margin-top:12px;' data-logo="byteally">
+								<img src='images/logos/byteally.png' />
+							</a>
+							
+							
+							<a href="" class='single_logo' data-logo="chargebee">
+								<img src='images/logos/chargebee.png' />
+							</a>
+							
+							
+							<a href="" class='single_logo' data-logo="contract" style="margin-top: -37px;">
+								<img src='images/logos/contract.png' />
+							</a>
+							
+							
+							<a href="" class='single_logo' data-logo="effect_works">
+								<img src='images/logos/effect_works.png' />
+							</a>
+							
+							<a href="" class='single_logo' data-logo="humble_paper">
+								<img src='images/logos/humble_paper.png' />
+							</a>
+							
+							<a href="" class='single_logo' data-logo="indie">
+								<img src='images/logos/indie.png' />
+							</a>
+							
+							<a href="" class='single_logo' data-logo="orange_scape">
+								<img src='images/logos/orange_scape.png' />
+							</a>
+							
+							<a href="" class='single_logo' data-logo="zeocode">
+								<img src='images/logos/zeocode.png' />
+							</a>
+							
+						
+						</div>
 <!--                         <div class="border">
                           <img src="images/line.jpg"/>
                         </div>
@@ -86,7 +125,7 @@
 
 
                 </div>
-                <div class='the_location_div' style="height:620px">
+                <div class='the_location_div' style="">
 
                     <div class='inner_width_content'>
 
@@ -108,7 +147,7 @@
 
 
                 <div class='shedule_div'>
-                     <div class='inner_width_content'>
+                     <div class='inner_width_content' style="padding-bottom:80px;">
                         <div class='the_shedule'>
                             THE EVENT
                         </div>
@@ -117,8 +156,6 @@
 
                         <div class='the_map_details'>
 
-             <html>
-                  <body>
                     <div id="map-d">
                       <div id="map" style="height:300px"></div>
                       <script>
@@ -138,10 +175,7 @@
                   map.getPanes()["popupPane"].className = "swinging leaflet-popup-pane";
                             </script>
                     </div>
-                      </body>
-                  </html>
-
-
+                     
                         </div>
 
                         <div class='the_event_details'>
@@ -187,13 +221,14 @@
 
                  <div class='filter_kappi_div'>
                     
-                     <div class='inner_small_width_content'>
+                     <div class='inner_small_width_content' style='text-align:center;'>
 
                         <div class='the_event_registration_form' align="justify">
               
                            <!----- Google Doc Form starts here ------>
                             <div class="google_form">
-                                <form action="https://docs.google.com/forms/d/1YD7rDsd7QpiPQXs2JSiv3-8DZJ91lDiCtprZ0JR-yhc/formResponse?pli=1" method="POST" id="ss-form" target="_self" onsubmit=""><ol style="padding-left: 0">
+                                <form action="https://docs.google.com/forms/d/1YD7rDsd7QpiPQXs2JSiv3-8DZJ91lDiCtprZ0JR-yhc/formResponse?pli=1" method="POST" id="ss-form" target="_self" onsubmit="">
+								<ol style="padding-left: 0">
                         <input type="text" name="entry.278480872" value="" class="input_text_name" id="entry_278480872" dir="auto" aria-required="true" placeholder="First Name" required> 
                                     <input type="text" name="entry.1818418392" value="" class="input_text_name" id="entry_1818418392" dir="auto" aria-required="true" placeholder="Last Name" required></br>
                                     <input type="text" name="entry.1345336941" value="" class="input_text" id="entry_1345336941" dir="auto" placeholder="Startup's Name" required> </br>
@@ -225,7 +260,7 @@
                     
 
 
-
+				<div class='elastic'></div>
                 </div>
 
                  <div class='spread_the_word_div'>
@@ -312,6 +347,18 @@
         </div> 
   
   <script src="js/jq/jquery.js"></script> 
+  <script>
+	$(document).ready(function(){
+	
+		$('.single_logo').hover(function(){
+			$(this).find("img").attr("src", "images/logos/"+$(this).data("logo")+"_hover.png");
+		},
+		function(){
+			$(this).find("img").attr("src", "images/logos/"+$(this).data("logo")+".png");
+		})
+	
+	})
+  </script>
  
 </body>
 </html> 
