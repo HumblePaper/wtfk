@@ -112,15 +112,13 @@ body
 	width: 590px;
 	font-size:40px;
 	color:#312f2f;
-	margin-top:10px;
-	margin-left:30px;
-	margin-right:6px;
 	padding:0px;
-	float: left;
-	text-align:justify;
 	background: #fff;
 	border: 1px solid #eee;
 	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top:20px;
 }
 
 .border {
@@ -142,9 +140,6 @@ body
 .byline {
 	font-size:24px;
 	border-top:1px solid #999;
-	margin-top:40px;
-	padding-top:20px;
-	float:left;
 	color:#999;
 }
 
@@ -430,8 +425,10 @@ input[type=radio] {
 
 .filter_kappi_div
 {
-	background:#033a57;
+	background:#999999;
 	height:380px;
+	float:left;
+	width:100%;
 }
 
 .footer
