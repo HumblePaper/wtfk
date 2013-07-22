@@ -514,3 +514,66 @@ padding-bottom:80px;
 .width45 {
 	width:45%;
 	}
+	
+	.speaker
+	{
+		width:600px;
+		margin:auto;
+				margin-top:20px;
+				margin-bottom:30px;
+	}
+	
+	.speaker_head
+	{
+		font-size:30px;
+		margin-bottom:10px;
+	}
+	
+	.speaker_details
+	{
+		text-align:center;
+				margin-top:20px;
+
+	}
+	
+	.speaker_details img
+	{
+		display:inline-block;
+		*display:inline;
+		zoom:1;
+		vertical-align:top;
+	}
+	
+	.speaker_details p
+	{
+		display:inline-block;
+		*display:inline;
+		zoom:1;
+		vertical-align:top;
+		text-align:left;
+		
+		width:405px;
+		color:#312f2f;
+		padding:0px;
+		margin:0px;
+		margin-left:10px;
+	}
+	
+	.speaker_name
+	{
+		font-size:25px;
+		display:inline-block;
+		margin-bottom:2px;
+	}
+	
+	.speaker_desig{
+			font-size:18px;
+		display:inline-block;
+		margin-bottom:10px;
+	}
+	
+	.speaker_desc{
+			font-size:16px;
+		display:inline-block;
+		
+	}
