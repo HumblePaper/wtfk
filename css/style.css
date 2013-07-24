@@ -119,7 +119,7 @@ body
 	padding:0px;
 	background: #fff;
 	border: 1px solid #eee;
-	padding: 20px;
+	padding: 41px 20px;
 	text-align: center;
 	margin: 0 auto;
 	margin-top:20px;
@@ -191,7 +191,7 @@ height: 300px; }
 }
 
 .input_text_name {
-	width:250px;
+	width:265px;
 	padding:10px;
 	margin-left:25px;
 	font-size:18px;
@@ -332,6 +332,7 @@ padding-bottom:80px;
 	font-size:20px;
 	color:#312f2f;
 	margin-top:10px;
+	margin-bottom:30px;
 }
 
 .orange_border
@@ -379,7 +380,7 @@ padding-bottom:80px;
 	*display: inline;
 	width:590px;
 	padding-top:60px;
-	padding-left:60px;
+	padding-left:23px;
 	position: relative;
 	float:left;
 }
@@ -420,7 +421,7 @@ padding-bottom:80px;
 	width:600px;
 	text-align: center;
 	padding-top:105px;
-	padding-right:40px;
+
 }
 
 .facebook_share
@@ -455,7 +456,7 @@ padding-bottom:80px;
 
 .filter_kappi_div
 {
-	background:#999999;
+	background:#4B4A4A;
 	text-align:center;
 	width:100%;
 }
@@ -517,23 +518,47 @@ padding-bottom:80px;
 	
 	.speaker
 	{
-		width:600px;
+		width:700px;
 		margin:auto;
 				margin-top:20px;
-				margin-bottom:30px;
+				margin-bottom:80px;
+				position:relative;
 	}
 	
+	
+	#prev2
+	{
+		position:absolute;
+		left:0px;
+		top:52%;
+		
+	}
+	#next2
+	{
+		position:absolute;
+		right:0px;
+		top:52%;
+		
+	}
 	.speaker_head
 	{
 		font-size:30px;
-		margin-bottom:10px;
+		margin-bottom:30px;
 	}
 	
 	.speaker_details
 	{
 		text-align:center;
-				margin-top:20px;
-
+	    margin-top:20px;
+		width:600px;
+		margin:auto;
+	}
+	
+	.single_speaker
+	{
+		width:600px;
+		margin:auto;
+		height:170px
 	}
 	
 	.speaker_details img
@@ -542,6 +567,7 @@ padding-bottom:80px;
 		*display:inline;
 		zoom:1;
 		vertical-align:top;
+		margin-top:16px;
 	}
 	
 	.speaker_details p
