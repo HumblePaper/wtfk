@@ -5,8 +5,17 @@ body
 	margin:0px;
 	text-align: center;
 }
+.spiel {
+	color:#ccc;
+	width:600px;
+	font-size:20px;
+	text-align: left;
+	margin-left: 20px;
+	margin-top:20px;
+	float:left;
+}
 
-.container
+.container1
 {
 	width:100%;
 	margin:auto;
@@ -19,6 +28,7 @@ body
 	background-size:100%;
 	text-align:center;
 	padding-bottom:96px;
+	float:left;
 }
 
 .train
@@ -51,16 +61,15 @@ body
 	font-size:150px;
 	color:#a1d012;
 	text-align:center;
+	padding-top:20px;
 	width:1245px;
-	padding-top:100px;
 }
 
 .wtfk_location
 {
 	text-align:center;
 	width:100%;
-	position: absolute;
-	top:270px;
+	float:left;
 	text-align: center;
 
 }
@@ -68,7 +77,7 @@ body
 .cover_time
 {
 	font-size:70px;
-	color:#FFF;
+	color:#fff;
 	display:inline-block;
 	vertical-align: middle;
 	*display:inline;
@@ -78,7 +87,7 @@ body
 .cover_location
 {
 	font-size:55px;
-	color:#FFF;
+	color:#ddd;
 	position:relative;
 	display:inline-block;
 	vertical-align: middle;
@@ -99,6 +108,8 @@ body
 .the_event_div
 {
 	padding-bottom:80px;
+	float:left;
+	width: 100%;
 }
 .the_event
 {
@@ -110,6 +121,7 @@ body
 .the_event_details
 {
 	display:inline-block;
+	line-height: 50px;
 	vertical-align:middle;
 	*display:inline;
 	zoom:1;
@@ -133,7 +145,7 @@ body
 
 .the_event_registration_form
 {
-	width: 610px;
+	width: 100%;
 	font-size:20px;
 	color:#312f2f;
 	display:inline-block;
@@ -190,25 +202,35 @@ height: 300px; }
 	padding:0;
 }
 
+
+.input[type="text"], .input_text, .input_text_name{
+width: 100% !important;
+/*float: left !important;
+*/margin: 0 !important;
+margin-bottom:20px !important;
+padding: 4px !important;
+height: 30px !important;
+}
+
 .input_text_name {
-	width:265px;
+/*	width:265px;
 	padding:10px;
 	margin-left:25px;
 	font-size:18px;
 	margin-bottom:5px;
-	border: 1px solid #ddd;
+*/	border: 1px solid #ddd;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-ms-border-radius: 2px;
 	border-radius: 2px;	
 }
 .input_text {
-	width:554px;
+/*	width:100%;
 	padding:10px;
 	margin-left:25px;
 	font-size:18px;
 	margin-bottom:5px;
-	border: 1px solid #ddd;
+*/	border: 1px solid #ddd;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-ms-border-radius: 2px;
@@ -512,17 +534,25 @@ padding-bottom:80px;
 .left_float {
 	float:left;
 	}
+
+.fchat {
+	width:50%;
+	float:left;
+}
+
 .width45 {
 	width:45%;
 	}
 	
 	.speaker
 	{
-		width:700px;
+		background:rgba(0,0,0,0.4);
+		width:1200px;
+		min-height:300px;
 		margin:auto;
-				margin-top:120px;
-				
-				position:relative;
+		margin-top:0px;
+		padding:20px;
+		float:left;
 	}
 	
 	
@@ -545,23 +575,25 @@ padding-bottom:80px;
 		font-size:30px;
 		margin-bottom:15px;
 		color:#FFF;
+		float:left;
+		margin:20px;
+		margin-top:30px;
 		text-align: left;
-padding-left: 205px;
+padding-left: 0px;
 	}
 	
 	.speaker_details
 	{
-		text-align:center;
-	    margin-top:20px;
+		text-align:left;
+	    margin-top:0px;
+	    margin-left:20px;
+	    float:left;
 		width:600px;
-		margin:auto;
 	}
 	
 	.single_speaker
 	{
-		width:600px;
-		margin:auto;
-		height:170px
+		float:left;
 	}
 	
 	.speaker_details img
@@ -570,7 +602,7 @@ padding-left: 205px;
 		*display:inline;
 		zoom:1;
 		vertical-align:top;
-		margin-top:16px;
+		float:left;
 	}
 	
 	.speaker_details p
