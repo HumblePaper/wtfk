@@ -16,7 +16,8 @@
      <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.min.css" />       
        <link rel="icon" type="images/png" href="image/fav_icon.png" />
         <script type="text/javascript" src="js/jq/jquery.js"></script>  
-	
+	<link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+
   <!--  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family="> -->
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/cufon-yui.js" type="text/javascript"></script>
@@ -33,7 +34,7 @@
         <script type="text/javascript">
             Cufon.replace('.wtfk_logo, .speaker_head, .couture_bold, .the_event, .count_me_in_font, .the_location, .the_shedule, .spread, .the_participant, .small_spread', { fontFamily: 'COUTURE' });
             Cufon.replace('.cover_location', { fontFamily: 'Helvetica Neue LT Std' });
-             Cufon.replace('.speaker_name, .fil, .speaker_desc, .speaker_desig, label, .input_text, .input_text_name, .tripiterinary, .inner_footer, .address, .shedule, .facebook_text, .filter_kappi_text', { fontFamily: 'Helvetica' });
+             Cufon.replace('.speaker_name, .speaker_desc, .speaker_desig, label, .input_text, .input_text_name, .tripiterinary, .inner_footer, .address, .shedule, .facebook_text, .filter_kappi_text', { fontFamily: 'Helvetica' });
              Cufon.replace('.free_trial_text', { fontFamily: 'Futura Md BT', fontWeight:'700' });
               Cufon.replace('.hover_true', { fontFamily: 'Futura Lt BT', hover: {
                 color:'#000'
@@ -49,9 +50,7 @@
 
 
                     <div class='inner_width_content'>
-                        <div class='wtfk_logo'>
-                        </div>
-                        <div class='wtfk_location' style="padding-top:40px;padding-bottom:40px;">
+                        <div class='wtfk_location' style="padding-top:30px;padding-bottom:0px;">
 
                             <span class='couture_bold cover_time' style="color:#fff;">WTFK 2013</span>   
                             <span class='cover_location'>
@@ -60,8 +59,30 @@
                             </span>
 
                         </div>
-<!--             <div class="fil" style="padding:50px;padding-bottom:40px;color:#ccc;font-size:30px;">The filtercoffeers present</div>
- -->            <div class="speaker">
+            <div class="fil" style="margin:20px;margin-top:10px;margin-bottom:10px;float:left;width:1200px;padding-bottom:0px;color:#ccc;font-size:20px;text-align:right;">
+                <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436');return false;" target="_blank" style="float:right;margin-right:15px;margin-top:5px;">
+                   <i class="icon-facebook-squared" style="color:#324C75;color:#3B5998;"></i>
+                </a>
+              <script>
+                FB.ui({
+                  method: 'feed',
+                  redirect_uri: 'http://www.wtfk.co',
+                  link: 'https://developers.facebook.com/docs/reference/dialogs/',
+                  picture: 'http://fbrell.com/f8.jpg',
+                  name: 'Facebook Dialogs',
+                  caption: 'Reference Documentation',
+                  description: ''
+                }, function(response){});
+                            </script>
+
+
+
+<a style="float:right;margin-top:2px;" href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="WTFK 2013 - the Bangalore Edition" data-url="http://wtfk.co/"></a>
+<a style="float:right;margin-right:30px;margin-top:5px;" href="https://twitter.com/share?text=WTFK 2013&url=http://www.wtfk.co" data-lang="en" target="_blank"><i class="icon-twitter"></i></a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+            </div>
+            <div class="speaker">
               <div class="fchat">
                 <div class="spiel">10,000 stores. 140 brands. 75 million consumers. 16 countries</div>
                 <div class='speaker_head'>
@@ -104,14 +125,14 @@
                 </div>
 
 
-                <div class='the_event_div' style="background:#f9f9f9;">
+                <div class='the_event_div' style="background:#666;">
 
                     <div class='inner_width_content'>
 
                         <div class='the_event'>
-                            What the Filter Kaapi?
+                            What the Filter Kaapi
                         </div>
-                        <div class='the_event_details' style="background:transparent;border:none;">
+                        <div class='the_event_details' style="background:transparent;border:none;color:#fff">
 
                             Founders from <strong>Chennai's</strong> finest tech and design startups converge on <strong>Bangalore</strong> for the inaugural edition of WTFK  <Br/>
 <span class="byline"><span style="margin-top:20px">a startup event by founders for founders</span></span> 
@@ -204,11 +225,11 @@
                     </div>
 
                 </div>
-                <div class="train">
+                <div class="train" class="pull-left">
 
 
                 </div>
-<!--                 <div class='the_location_div' style="">
+                <div class='the_location_div' style="float:left;width:100%;">
 
                     <div class='inner_width_content'>
 
@@ -219,11 +240,15 @@
                         <div class="tripiterinary"><span class="em">Aug 2, 7:25 AM</span> Leave Chennai Central via SBC Double Decker Train</div>
                         <div class="tripiterinary"><span class="em">Aug 2, 1:30 PM</span> Arrive Bangalore City and depart for Hotel</div>
                         <div class="tripiterinary"><span class="em">Aug 2, 2:15 PM</span> Checkin to Hotel</div>
-                        <div class="tripiterinary"><span class="em">Aug 2, 3:30 PM</span> Visit to Microsoft Accelerator </div>
-                        <div class="tripiterinary"><span class="em">Aug 2, 5:45 PM</span> Filter::Coffee meetup</div>
-                        <div class="tripiterinary"><span class="em">Aug 2, 8:45 PM</span> Dinner with founders from the Startup Leadership Program </div>
-                        <div class="tripiterinary"><span class="em">Aug 3, 8:30 AM</span> Leave Hotel for the Event</div>
-                    </div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 3:30 PM</span> Visits to select Startup offices (optional) </div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 5:45 PM</span> Filter::Coffee meetup (for Chennai founders)</div>
+                        <div class="tripiterinary"><span class="em">Aug 2, 8:45 PM</span> Dinner organized by SLP folks</div>
+                        <div class="tripiterinary"><span class="em">Aug 3, 8:30 AM</span> Leave Hotel for the Prototyping Workshop</div>
+                        <div class="tripiterinary"><span class="em">Aug 3, 9:30 AM</span> Prototyping Workshop</div>                    </div>
+                        <div class="tripiterinary"><span class="em">Aug 3, 12:00 PM</span> Fireside Chat</div>
+                        <div class="tripiterinary"><span class="em">Aug 3, 2:00 PM</span> Lunch (somewhere!)</div>
+                        <div class="tripiterinary"><span class="em">Aug 3, 5:30 PM</span> Leave for Chennai</div>
+                      </div>
                    
                 </div>
                 <div class='bottom_arrow'><img src='images/bottom_arrow.png' /></div>
@@ -232,10 +257,10 @@
                 <div class='shedule_div'>
                      <div class='inner_width_content' style="padding-bottom:80px;">
                         <div class='the_shedule'>
-                            THE EVENT
+                            THE VENUE
                         </div>
 
-                        <div class='address'>August 3, MPR, Microsoft R&D India Pvt Ltd, No 9, Vigyan, Cosmo Lavelle, Lavelle Road, Bangalore</div>
+                        <div class='address'>MPR, Microsoft R&D India Pvt Ltd, No 9, Vigyan, Cosmo Lavelle, Lavelle Road, Bangalore</div>
 
                         <div class='the_map_details'>
 
@@ -261,30 +286,8 @@
                      
                         </div>
 
-                        <div class='the_event_details'>
-                      
-                       
-                        <div class='shedule'>
-                            09:00 Registration
-                        </div>
-
-                        <div class='shedule'>
-                            09:30 Introductory note
-                        </div>
-
-                        <div class='shedule'>
-                            09:45 Break
-                        </div>
-
-                        <div class='shedule'>
-                            10:00 - 12:30 Gyan, Networking and Fun
-                        </div>
-
                     </div>
-
-                    </div>
- -->                    <div class='orange_border'></div>
-                </div>
+                    
 
 
 <!--                  <div class='participants_div'>
@@ -302,78 +305,7 @@
  -->
 
 
-                 <div class='filter_kappi_div'>
-                    
-                     <div class='inner_small_width_content' style='text-align:center;'>
-
-
-                    </div>
-                    
-
-
-				<div class='elastic'></div>
-                </div>
-
-                 <div class='spread_the_word_div'>
-                     <div class='inner_small_width_content' style="width:1240px">
-
-
-                        <div class='left_spread'>
-                            <div class='spread'>
-                                SPREAD
-                            </div>
-                            <div class='small_spread'>
-                                THE WORD
-                            </div>
-                        </div>
-
-                        <div class='sepeartor'>
-
-                        </div>
-
-                        <div class='right_share'>
-                              
-                            
-                                
-                            <a href="#" onclick="
-                                    window.open(
-                                      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
-                                      'facebook-share-dialog', 
-                                      'width=626,height=436'); 
-                                    return false;" target="_blank" class='facebook_share' >
-                                <img src="images/facebook.png" />
-
-                                <span class='facebook_text'>Share on Facebook</span>
-                            </a>
-                            <script>
-                FB.ui({
-                  method: 'feed',
-                  redirect_uri: 'http://www.wtfk.co',
-                  link: 'https://developers.facebook.com/docs/reference/dialogs/',
-                  picture: 'http://fbrell.com/f8.jpg',
-                  name: 'Facebook Dialogs',
-                  caption: 'Reference Documentation',
-                  description: ''
-                }, function(response){});
-                            </script>
-  
-                             <!--<a class='facebook_share'  href="http://twitter.com" target="_blank"> -->
-                             <a href="https://twitter.com/share?text=WTFK 2013&url=http://www.wtfk.co" class="facebook_share" data-lang="en" target="_blank">
-
-                                <img src="images/twitter.png" />
-
-                                <span class='facebook_text'>Share on Twitter</span>
-                            </a>
-                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-                        </div>
-
-
-
-                    </div>
-                    
-                </div>
-
+              
 
 
                 <div class="footer">
@@ -464,5 +396,12 @@ $('#slideshow').cycle({
                         </div>   
   </div>
 </div>
-</body>
+<script>
+    (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.src = 'js/hn.js';
+        s.parentNode.insertBefore(g, s);
+    }(document, 'script'));
+</script></body>
 </html> 

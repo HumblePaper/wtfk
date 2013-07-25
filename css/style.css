@@ -27,7 +27,7 @@ body
 	background:url(../images/cover.jpg) no-repeat;
 	background-size:100%;
 	text-align:center;
-	padding-bottom:96px;
+	padding-bottom:56px;
 	float:left;
 }
 
@@ -113,9 +113,9 @@ body
 }
 .the_event
 {
-	font-size:140px;
-	color:#033a57;
-	padding-top:50px;
+	font-size:40px;
+	color:#ddd;
+	padding-top:30px;
 }
 
 .the_event_details
@@ -134,7 +134,7 @@ body
 	padding: 41px 20px;
 	text-align: center;
 	margin: 0 auto;
-	margin-top:20px;
+	margin-top:0px;
 }
 
 .border {
@@ -274,7 +274,7 @@ input[type=radio] {
 .the_location_div
 {
 	
-	background:#033a57;
+	background:#999;
 	position:relative;
 padding-bottom:80px;
 }
@@ -295,19 +295,19 @@ padding-bottom:80px;
 
 .the_location
 {
-	font-size:140px;
+	font-size:40px;
 	color:#FFF;
 	padding-top:50px;
 }
 
 .address
 {
-	font-size:45px;
-	color:#e69d11;	
+	font-size:25px;
+	color:#999;	
 }
 
 .em {
-	color:#e69d11;	
+	color:#ddd;	
 }
 
 .tripiterinary {
@@ -329,12 +329,13 @@ padding-bottom:80px;
 {
 	
 	background:#f9f9f9;
-	position:relative;
+	float:left;
+	width:100%;
 }
 
 .the_shedule
 {
-	font-size:140px;
+	font-size:40px;
 	color:#033a57;
 	padding-top:60px;
 }
@@ -368,7 +369,7 @@ padding-bottom:80px;
 
 .spread_the_word_div
 {
-	background:#f18103;
+	background:#3875E8;
 	text-align:left;
 	padding-bottom:100px;
 	float:left;
@@ -407,16 +408,19 @@ padding-bottom:80px;
 	float:left;
 }
 
+.hn-share-iframe {
+	margin-top:7px !important;
+}
 .spread
 {
-	font-size:120px;
+	font-size:40px;
 	color:#FFF;
 }
 
 
 .small_spread
 {
-	font-size:92px;
+	font-size:40px;
 	color:#FFF;
 	position:absolute;
 	top:167px;
