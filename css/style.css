@@ -27,7 +27,7 @@ body
 	background:url(../images/cover.jpg) no-repeat;
 	background-size:100%;
 	text-align:center;
-	padding-bottom:56px;
+	padding-bottom:0px;
 	float:left;
 }
 
@@ -554,13 +554,14 @@ padding-bottom:30px;
 	.speaker
 	{
 		background:rgba(255,255,255,1);
-		border:1px solid #666;
+		border-radius:10px;
 		border-bottom:none;
 		width:1200px;
 		min-height:300px;
 		margin:auto;
 		margin-top:0px;
 		padding:30px;
+		padding-bottom:0px;
 		padding-top:20px;
 		float:left;
 	}
