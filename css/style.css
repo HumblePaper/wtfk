@@ -631,14 +631,30 @@ padding-left: 0px;
 		margin-bottom:2px;
 	}
 	
+		.speaker_name1
+	{
+		font-size:15px;
+		display:inline-block;
+		margin-bottom:2px;
+	}
 	.speaker_desig{
 			font-size:18px;
+		display:inline-block;
+		margin-bottom:10px;
+	}
+	.speaker_desig1{
+			font-size:13px;
 		display:inline-block;
 		margin-bottom:10px;
 	}
 	
 	.speaker_desc{
 			font-size:16px;
+		display:inline-block;
+		
+	}
+		.speaker_desc1{
+			font-size:12px;
 		display:inline-block;
 		
 	}
