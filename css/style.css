@@ -6,7 +6,7 @@ body
 	text-align: center;
 }
 .spiel {
-	color:#ccc;
+	color:#666;
 	width:600px;
 	font-size:20px;
 	text-align: left;
@@ -78,7 +78,7 @@ body
 .cover_time
 {
 	font-size:70px;
-	color:#fff;
+	color:#999;
 	display:inline-block;
 	vertical-align: middle;
 	*display:inline;
@@ -108,7 +108,7 @@ body
 
 .the_event_div
 {
-	padding-bottom:80px;
+	padding-bottom:0px;
 	float:left;
 	width: 100%;
 }
@@ -275,9 +275,9 @@ input[type=radio] {
 .the_location_div
 {
 	
-	background:#999;
+	background:#fff;
 	position:relative;
-padding-bottom:80px;
+padding-bottom:30px;
 }
 
 .bottom_arrow
@@ -297,25 +297,26 @@ padding-bottom:80px;
 .the_location
 {
 	font-size:40px;
-	color:#FFF;
-	padding-top:50px;
+	color:#999;
+	padding-top:40px;
 }
 
 .address
 {
 	font-size:25px;
 	color:#999;	
+	margin-top:20px;
 }
 
 .em {
-	color:#ddd;	
+	color:#08C;	
 }
 
 .tripiterinary {
 	padding-top:15px;
 	padding-bottom:15px;
 	font-size:20px;
-	color:#ffffff;
+	color:#888;
 }
 
 .the_map_details
@@ -330,6 +331,7 @@ padding-bottom:80px;
 {
 	
 	background:#f9f9f9;
+	border-top:1px solid #eee;
 	float:left;
 	width:100%;
 }
@@ -337,7 +339,7 @@ padding-bottom:80px;
 .the_shedule
 {
 	font-size:40px;
-	color:#033a57;
+	color:#08C;
 	padding-top:60px;
 }
 
@@ -551,12 +553,14 @@ padding-bottom:80px;
 	
 	.speaker
 	{
-		background:rgba(0,0,0,0.4);
+		background:rgba(255,255,255,0.9);
+		border:1px solid #fff;
 		width:1200px;
 		min-height:300px;
 		margin:auto;
 		margin-top:0px;
-		padding:20px;
+		padding:30px;
+		padding-top:20px;
 		float:left;
 	}
 	
@@ -579,7 +583,7 @@ padding-bottom:80px;
 	{
 		font-size:30px;
 		margin-bottom:15px;
-		color:#FFF;
+		color:#CCC;
 		float:left;
 		margin:20px;
 		margin-top:30px;
@@ -628,6 +632,7 @@ padding-left: 0px;
 	.speaker_name
 	{
 		font-size:25px;
+		color:#666;
 		display:inline-block;
 		margin-bottom:2px;
 	}
@@ -635,13 +640,17 @@ padding-left: 0px;
 		.speaker_name1
 	{
 		font-size:13px;
+		color:#999;
+		font-weight: 500;
+		margin-top:10px;
 		display:inline-block;
-		margin-bottom:2px;
 	}
 	.speaker_desig{
 			font-size:18px;
+			color:#000;
 		display:inline-block;
 		margin-bottom:10px;
+		margin-top:5px;
 	}
 	.speaker_desig1{
 			font-size:13px;
@@ -652,6 +661,8 @@ padding-left: 0px;
 	
 	.speaker_desc{
 			font-size:16px;
+			line-height: 23px;
+			text-align: justify;
 		display:inline-block;
 		
 	}
