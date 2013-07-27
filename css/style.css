@@ -99,11 +99,8 @@ body
 .vertical_divider
 {
 	width:2px;
-	height:70px;
+	height:30px;
 	background:#FFF;
-	position:absolute;
-	left:13px;
-	top:-7px;
 }
 
 .the_event_div
@@ -553,7 +550,7 @@ padding-bottom:30px;
 	
 	.speaker
 	{
-		background:rgba(255,255,255,1);
+		background:#f9f9f9;
 		border-radius:10px;
 		border-bottom:none;
 		width:1200px;
